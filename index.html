@@ -4,23 +4,71 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Weather App</title>
+    <title>Weather Today</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <img
+        src="./images/Umbrella.jpg"
+        alt="Heavy rain on Umbrella"
+        height="100"
+        width="100" />
+      <nav>
+        <div><a href=""></a><a href=""></a><a href=""></a></div>
+        <div><a href=""></a></div>
+      </nav>
+    </header>
     <nav>
+      <article>
+        <h1>Weather Today</h1>
+        <h3>Stay updated with the latest weather information</h3>
+      </article>
       <ul>
+        <h2>Tooele, Utah</h2>
         <li>Home</li>
         <li>News</li>
         <li>Weather</li>
-        <div class="flex-col">
+        <h2>5 Day Forecast</h2>
+        <div>
+          <p>Tuesday</p>
+          <img src="./images/rain.jpg" alt="Rain" height="100" width="100" />
+          <p>63 °F</p>
+        </div>
+        <div>
+          <p>Wednesday</p>
+          <img
+            src="./images/partlyCloudy.jpg"
+            alt="Clouds"
+            height="100"
+            width="100" />
+          <p>67 °F</p>
+        </div>
+        <div>
+          <p>Thursday</p>
+          <img src="./images/Sunny.jpg" alt="Sunny" height="100" width="100" />
+          <p>76 °F</p>
+        </div>
+        <div>
+          <p>Friday</p>
+          <img src="./images/Sunny.jpg" alt="Sunny" height="100" width="100" />
+          <p>78 °F</p>
+          <div>
+            <p>Saturday</p>
+            <img
+              src="./images/Sunny.jpg"
+              alt="Sunny"
+              height="100"
+              width="100" />
+            <p>84 °F</p>
+          </div>
+          <div class="flex-col">
           <span id="dayTitle1" class="col-head"></span>
           <img id="weatherIcon1" class="weatherIcon" />
           <span class="temp-data">
-            <span id="data1"></span> <span>°F</span>
+            <span id="data1"></span> 
           </span>
         </div>
-        <li style="float: right">About</li>
+        <li style="float: none">About</li>
       </ul>
     </nav>
     <main></main>
